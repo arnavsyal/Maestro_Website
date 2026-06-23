@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/IMG_4699-removebg-preview.png" alt="" ></a>
+            <div class="navi" id="navi">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="Our services.html">Our Service</a></li>
+                    <li><a href="CONTACT.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+        <h1><span style="color: rgba(248, 85, 60, 0.921);">Contact</span> Us</h1>
+    </section>
+
+<!-------contact-------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.5275805658134!2d76.76563230957899!3d30.675428874506043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fedfb43298b5f%3A0xe17c4e09f4844959!2sMaestro%20Design%20%26%20Modifications!5e0!3m2!1sen!2sin!4v1782107732854!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contactus">
+    <div class="row">
+        <div class="concol">
+            <div>
+            <span style="color: rgba(248, 85, 60, 0.921);"><i class="fa fa-home"></i></span>
+            <span>
+                <h5>road, jagatpura, Kandala,</h5>
+                <p> Sahibzada Ajit Singh Nagar, Punjab 140306</p>
+            </span>
+            </div>
+        
+        
+            <div>
+            <span style="color: rgba(248, 85, 60, 0.921);"><i class="fa fa-phone"></i></span>
+            <span>
+                <h5>09814610243</h5>
+                <p>Monday To Friday,9Am To 4Pm</p>
+            </span>
+            </div>
+        
+            <div>
+             <span style="color: rgba(248, 85, 60, 0.921);"><i class="fa fa-envelope"></i></span>
+            <span>
+                <h5>maestrodesign<br>modifications@gmail.com</h5>
+                <p>Email Us Your Query</p>
+            </span>
+            </div>
+        </div>
+        <div class="concol">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <h1 style="text-align: center; margin-bottom: 20px;">Any Query?</h1>
+                <input type="hidden" name="access_key" value="4226894a-6965-4152-8f74-16e8b31902b6">
+                <input type="text" placeholder="Enter Your Name" name="name" required>
+                <input type="email" placeholder="Enter Your Email" name="email" required>
+                <input type="text" placeholder="Enter Your Subject" name="message" required>
+                <textarea placeholder="Your Message" rows="8"></textarea>
+                <button class="hero-btn" type="submit">Send Message😊</button>
+            </form>
+
+
+        </div>
+    </div>
+</section>
+
+<!--------footer-------->
+<div class="footer">
+    <h2>About us</h2>
+    <p>Maestro Design Modifications is a leading engineering solutions provider <br>focused on FRP component design, product development, tooling, manufacturing, and specialized vehicle modifications.</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/maestro_design_modifications_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:maestrodesignmodifications@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+</div>
+<!----javascript---->
+
+<script>
+    var navi = document.getElementById("navi")
+    
+    function showmenu(){
+        navi.style.right = "0";
+    }
+    function hidemenu(){
+        navi.style.right = "-200px";
+    }
+    
+</script>    
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/IMG_4699-removebg-preview.png" alt="" ></a>
+            <div class="navi" id="navi">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="Our services.html">Our Service</a></li>
+                    <li><a href="CONTACT.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+        </nav>
+        <h1><span style="color: rgba(248, 85, 60, 0.921);">About</span> Us</h1>
+    </section>
+
+<!-------About Content-------->    
+
+<section class="aboutcont">
+    <div class="row">
+        <div class="aboutcol">
+            <h1>Engineering Excellence That Drives Innovation</h1>
+            <p>Maestro Design Modifications is a trusted engineering and manufacturing company specializing in Fiber Reinforced Plastic (FRP) products and customized vehicle solutions. We offer complete development support from concept creation and prototyping to production and final delivery.
+
+Our team combines technical expertise, advanced manufacturing techniques, and quality-focused processes to provide reliable and cost-effective solutions across multiple industries.</p>
+
+<h2 style="display: block; text-align: center;" >Our Vision</h2>                
+<p>
+
+To become a leading provider of custom FRP engineering and specialized vehicle solutions through innovation, quality, and customer-focused manufacturing.
+
+<h2 style="display: block; text-align: center;">Our Mission</h2>
+<p>
+To provide end-to-end engineering services that transform ideas into market-ready products while maintaining the highest standards of quality, precision, and reliability.</p>
+<br><br>
+
+<h2 style="display: block; text-align: center;">Our Core Values</h2>
+<br>
+<h3>Innovation</h3>
+
+<p style="display: block; text-align: center;">Creating practical engineering solutions through continuous improvement.</p>
+
+<h3>Quality</h3>
+
+<p style="display: block; text-align: center;">Maintaining strict manufacturing standards across every project.</p>
+
+<h3>Reliability</h3>
+
+<p style="display: block; text-align: center;">Delivering consistent results and dependable project execution.</p>
+
+<h3>Customer Focus</h3>
+
+<p style="display: block; text-align: center;">Developing customized solutions tailored to client requirements.</p>
+
+
+<br><br>
+        <a href="Our services.html" class="hero-btn" style="margin-left: 37%;">Explore Now</a>
+        </div>
+        
+        <div class="aboutcol">
+            <img src="images/aboutimg.png" alt="" style="box-shadow: 20px black;">
+        </div>
+    </div>
+</section>
+
+<!------Abooutttt------>
+
+
+<!--------footer-------->
+<div class="footer">
+    <h2>About us</h2>
+    <p>Maestro Design Modifications is a leading engineering solutions provider <br>focused on FRP component design, product development, tooling, manufacturing, and specialized vehicle modifications.</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/maestro_design_modifications_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:maestrodesignmodifications@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+</div>
+<!----javascript---->
+
+<script>
+    var navi = document.getElementById("navi")
+    
+    function showmenu(){
+        navi.style.right = "0";
+    }
+    function hidemenu(){
+        navi.style.right = "-200px";
+    }
+    
+</script>    
+</body>
+</html>
